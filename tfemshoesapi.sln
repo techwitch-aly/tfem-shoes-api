@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tfemshoes.API", "tfemshoes.API\tfemshoes.API.csproj", "{5E5E828B-3BF0-4609-A17F-7F792E954AF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tfemshoes.Domain", "tfemshoes.Domain\tfemshoes.Domain.csproj", "{968F41D4-BB17-49E4-98FF-550956C45335}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{80FC4ACB-F8CA-4B82-BCE1-00C7E6125448}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserUtilities", "UserUtilities\UserUtilities.csproj", "{03914CF8-4066-426F-B1DC-42F954995881}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E5E828B-3BF0-4609-A17F-7F792E954AF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E5E828B-3BF0-4609-A17F-7F792E954AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E5E828B-3BF0-4609-A17F-7F792E954AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E5E828B-3BF0-4609-A17F-7F792E954AF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{968F41D4-BB17-49E4-98FF-550956C45335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{968F41D4-BB17-49E4-98FF-550956C45335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{968F41D4-BB17-49E4-98FF-550956C45335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{968F41D4-BB17-49E4-98FF-550956C45335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03914CF8-4066-426F-B1DC-42F954995881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03914CF8-4066-426F-B1DC-42F954995881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03914CF8-4066-426F-B1DC-42F954995881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03914CF8-4066-426F-B1DC-42F954995881}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66D0D058-D0D6-4A1C-8CF8-F6EEE145E062}
+	EndGlobalSection
+EndGlobal
